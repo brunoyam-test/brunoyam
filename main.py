@@ -81,6 +81,16 @@ class Vedma (Character):
         self.name = 'Vedma'
         self.exp = 75
 
+class Zombie (Character):
+    def __init__(self):
+        self.attack = 5
+        self.health = 80
+        self.max_health = 80
+        self.defence = 3
+        self.alive = True
+        self.name = 'Zombie'
+        self.exp = 50
+
 class Hero (Character):
     def __init__(self):
         super().__init__()
