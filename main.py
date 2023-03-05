@@ -61,6 +61,37 @@ class Cyclops(Character):
         self.name = 'Cyclops'
         self.exp = 10
 
+class Goblin (Character):
+    def __init__(self):
+        self.attack = 100
+        self.health = 10
+        self.max_health = 10
+        self.defence = 1
+        self.alive = True
+        self.name = 'Goblin'
+        self.exp = 500
+
+class Vedma (Character):
+    def __init__(self):
+        self.attack = 10
+        self.health = 150
+        self.max_health = 200
+        self.defence = 1
+        self.alive = True
+        self.name = 'Vedma'
+        self.exp = 75
+
+
+class dogs (Character):
+    def __init__(self):
+        self.attack = 124
+        self.health = 1504
+        self.max_health = 20024
+        self.defence = 1
+        self.alive = True
+        self.name = 'dogs'
+        self.exp = 7524
+
 class Zombie (Character):
     def __init__(self):
         self.attack = 5
