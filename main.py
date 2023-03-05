@@ -82,7 +82,7 @@ class Vedma (Character):
         self.exp = 75
 
 
-class dogs (Character):
+class Dogs (Character):
     def __init__(self):
         self.attack = 124
         self.health = 1504
