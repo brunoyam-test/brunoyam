@@ -91,6 +91,16 @@ class Zombie (Character):
         self.name = 'Zombie'
         self.exp = 50
 
+class Orc (Character):
+    def __init__(self):
+        self.attack = 15
+        self.health = 200
+        self.max_health = 200
+        self.defence = 5
+        self.alive = True
+        self.name = 'Zombie'
+        self.exp = 300
+
 class Hero (Character):
     def __init__(self):
         super().__init__()
