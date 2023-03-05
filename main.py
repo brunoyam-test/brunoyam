@@ -91,6 +91,18 @@ class Zombie (Character):
         self.name = 'Zombie'
         self.exp = 50
 
+
+class Wolf (Character):
+    def __init__(self):
+        self.attack = 1
+        self.health = 10
+        self.max_health = 10
+        self.defence = 3
+        self.alive = True
+        self.name = 'Wolf'
+        self.exp = 5
+
+
 class Orc (Character):
     def __init__(self):
         self.attack = 15
@@ -100,6 +112,7 @@ class Orc (Character):
         self.alive = True
         self.name = 'Zombie'
         self.exp = 300
+
 
 class Hero (Character):
     def __init__(self):
